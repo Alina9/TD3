@@ -1,16 +1,15 @@
 # TD3
+The implementation of the TD3 algorithm was tested on the BipedalWalker environment.
 
-Реализация алгоритма TD3 протестированная на среде BipedalWalker.
+The model training took 2000 epochs. This amount of epochs turned out to be excessive.
 
-Обучение шло 2000 эпизодов. Такое количество эпизодов оказалось излишне. 
-
-## График обучения с шагом 10 эпизодов
+## The training plot with a step of 10 epoch
 
 ![img](newplot1.png)
 
-Обученная сеть за 100 испытаний возвращает ревард в среднем 315.0710446075174. 
-Среднеквадратичное отклонение составило 1.2629194360001925
+The trained agent was run through 100 trials and achieved an average reward of 315.0710446075174. 
+The mean squared error was 1.2629194360001925
 
-## График тестирования обученной сети на 100 испытаниях
+## The testing plot of the trained agent over 100 trials
 
 ![img](newplot.png)
